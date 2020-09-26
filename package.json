@@ -1,0 +1,38 @@
+{
+  "name": "kass-ts",
+  "description": "node module for KASS payment gateway",
+  "keywords": [
+    "node",
+    "payment",
+    "kass",
+    "express"
+  ],
+  "author": "Jon Arnarson",
+  "license": "MIT",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.0.27",
+    "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "esbuild": "^0.6.24",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "jest": "^26.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+  }
+}
