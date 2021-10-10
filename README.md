@@ -1,4 +1,4 @@
-# Kass TS
+# Kass TS (DEPRECATED) (NOT BEING UPDATED)
 
 Javascript module for [KASS](https://www.kass.is/) payment gateway. Based on Python module [KASS Flow](https://github.com/busla/kass-flow).
 
